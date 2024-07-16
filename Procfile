@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn StayEz_Backend.wsgi
