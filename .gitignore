@@ -1,0 +1,5 @@
+.env
+StayEz_Backend/__pycache__
+features/__pycache__
+main/__pycache__
+properties/__pycache__

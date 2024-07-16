@@ -1,0 +1,526 @@
+[
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "1",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "2",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": 1
+    },
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "Single",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "Double",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": null
+    },
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "Single",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "Double",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": null
+    },
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "Single",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "Double",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": null
+    },
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "Single",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "Double",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": null
+    },
+    {
+        "id": 1,
+        "room_detail": [
+            {
+                "id": 1,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    }
+                ],
+                "seater": "Single",
+                "furnished": "Fully Furnished",
+                "kitchen": "Common",
+                "washroom": "Shared",
+                "total_rooms": 10,
+                "occupied_rooms": 3,
+                "price": 5000.0,
+                "ppty": 1
+            },
+            {
+                "id": 2,
+                "room_amnt": [
+                    {
+                        "id": 4,
+                        "amenity_name": "Ac"
+                    },
+                    {
+                        "id": 5,
+                        "amenity_name": "Cooler"
+                    },
+                    {
+                        "id": 6,
+                        "amenity_name": "Fan"
+                    }
+                ],
+                "seater": "Double",
+                "furnished": "Semi Furnished",
+                "kitchen": "Common",
+                "washroom": "Attached",
+                "total_rooms": 15,
+                "occupied_rooms": 5,
+                "price": 8000.0,
+                "ppty": 1
+            }
+        ],
+        "ppty_amenity": [
+            {
+                "id": 4,
+                "amenity_name": "Ac"
+            },
+            {
+                "id": 5,
+                "amenity_name": "Cooler"
+            },
+            {
+                "id": 6,
+                "amenity_name": "Fan"
+            }
+        ],
+        "property_type": "Pg",
+        "avl_for": "Boys",
+        "near_college": "KIET Group Of Institutions",
+        "mess_facility": "Avialable",
+        "rnt_pay_duration": "Monthly",
+        "property_name": "Sunny Apartments",
+        "phone_no": "1234567890",
+        "starting_price": 2500.0,
+        "address1": "123 Main Street",
+        "address2": "Apt 201",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": 10001,
+        "country": "India",
+        "dist_from_college": 1.5,
+        "security_charges": 100.0,
+        "security_features": {},
+        "lifestyle": {},
+        "rules": {},
+        "description": "Spacious apartments with modern amenities.",
+        "cover_image": null,
+        "owner": null
+    }
+]
+
+
