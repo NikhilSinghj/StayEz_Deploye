@@ -33,7 +33,67 @@ jobs:
         DB_HOST: ${{ secrets.DB_HOST }}
         DB_PORT: ${{ secrets.DB_PORT }}
 
+    - name: Collect static filesname: Deploy to Railway
+
+on:
+  push:
+    branches:
+      - origin
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y default-libmysqlclient-dev build-essential
+
+    - name: Install dependencies
+      run: |
+        python -m venv /opt/venv
+        . /opt/venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirements.txt || { echo 'Installation failed'; cat /opt/venv/pip-log.txt; exit 1; }
+      env:
+        DB_NAME: ${{ secrets.DB_NAME }}
+        DB_USER: ${{ secrets.DB_USER }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        DB_HOST: ${{ secrets.DB_HOST }}
+        DB_PORT: ${{ secrets.DB_PORT }}
+
+    - name: Run migrations
+      run: |
+        . /opt/venv/bin/activate
+        python manage.py migrate
+      env:
+        DB_NAME: ${{ secrets.DB_NAME }}
+        DB_USER: ${{ secrets.DB_USER }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        DB_HOST: ${{ secrets.DB_HOST }}
+        DB_PORT: ${{ secrets.DB_PORT }}
+
     - name: Collect static files
+      run: |
+        . /opt/venv/bin/activate
+        python manage.py collectstatic --noinput
+
+    - name: Deploy to Railway
+      uses: railwayapp/railway-action@v0.2.3
+      with:
+        command: up
+      env:
+        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
       run: |
         python manage.py collectstatic --noinput
 
