@@ -81,13 +81,14 @@ class UserLoginAPIView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-# class LogoutView(APIView):
-#     authentication_classes = [CsrfExemptSessionAuthentication,SessionAuthentication, BasicAuthentication]
-#     permission_classes = [IsAuthenticated]
+class LogoutView(APIView):
+    authentication_classes = [CsrfExemptSessionAuthentication,SessionAuthentication, BasicAuthentication]
+    permission_classes = [IsAuthenticated]
     
-#     def post(self, request, *args, **kwargs):
-#         logout(request)
-#         return Response({"message": "User logged out successfully."}, status=status.HTTP_200_OK)
+    def post(self, request, *args, **kwargs):
+        print(request.data)
+        logout(request)
+        return Response({"message": "User logged out successfully."}, status=status.HTTP_200_OK)
     
 
 
@@ -259,14 +260,14 @@ class CustomTokenObtainPairView(TokenObtainPairView):
 
 from .serializers import CustomTokenObtainSerializer, LogoutSerializer
 
-class LogoutView(APIView):
-    authentication_classes = [CsrfExemptSessionAuthentication,SessionAuthentication, BasicAuthentication]
-    permission_classes = [IsAuthenticated]
-    def post(self, request, *args, **kwargs):
-        serializer = LogoutSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+# class LogoutView(APIView):
+#     authentication_classes = [CsrfExemptSessionAuthentication,SessionAuthentication, BasicAuthentication]
+#     permission_classes = [IsAuthenticated]
+#     def post(self, request, *args, **kwargs):
+#         serializer = LogoutSerializer(data=request.data)
+#         serializer.is_valid(raise_exception=True)
+#         serializer.save()
+#         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 

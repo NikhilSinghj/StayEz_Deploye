@@ -3,7 +3,7 @@ name: Deploy to Railway
 on:
   push:
     branches:
-      - origin
+      - main
 
 jobs:
   deploy:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.10'
+        python-version: '3.x'
 
     - name: Install system dependencies
       run: |

@@ -14,7 +14,7 @@ urlpatterns = [
    path('user-register/', UserRegistrationAPIView.as_view(), name='register-user'),
    path('owner-register/', OwnerRegistrationView.as_view(), name='owner-user'),
    path('login/', UserLoginAPIView.as_view(), name='login'),
-   # path('logout/', LogoutView.as_view(), name='logout'),
+   path('logout/', LogoutView.as_view(), name='logout'),
    path('password-reset-request/', PasswordResetRequestView.as_view(), name='password_reset_request'),
    path('reset-password/<uid>/<token>/', PasswordResetView.as_view(), name='password_reset_confirm'),
    path('change-password/', ChangePasswordView.as_view(), name='change-password'),
@@ -25,5 +25,5 @@ urlpatterns = [
    path('api/token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
    # path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-   path('logout/', LogoutView.as_view(), name='token_blacklist'),
+#    path('logout/', LogoutView.as_view(), name='token_blacklist'),
 ]
